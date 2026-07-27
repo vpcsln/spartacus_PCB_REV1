@@ -3,7 +3,7 @@ set -eu
 
 script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 project_root=$(CDPATH= cd -- "$script_dir/.." && pwd)
-expected_version=$(tr -d '[:space:]' < "$project_root/.kicad-version")
+expected_version=${KICAD_EXPECTED_VERSION:-$(tr -d '[:space:]' < "$project_root/.kicad-version")}
 
 if ! command -v kicad-cli >/dev/null 2>&1; then
   echo "error: kicad-cli is not installed" >&2
@@ -68,5 +68,5 @@ kicad-cli pcb drc \
   --output "$report_dir/drc.json" \
   "$project_root/v1sch.kicad_pcb"
 
-echo "Verified v1sch_global_labels with KiCad $actual_version."
+echo "Verified chireix_pcb with KiCad $actual_version."
 echo "Reports: $report_dir/erc.json and $report_dir/drc.json"

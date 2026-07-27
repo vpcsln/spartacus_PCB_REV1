@@ -1,4 +1,4 @@
-# v1sch_global_labels
+# chireix_pcb
 
 KiCad schematic and PCB project for the Chireix design with global-label
 connectivity.
@@ -23,7 +23,7 @@ With KiCad 10.0.5 installed:
 ./scripts/verify-project.sh
 ```
 
-Or use the patch-pinned official KiCad CLI container:
+Or use the immutable official KiCad 10.0.4 CLI container:
 
 ```sh
 make verify-container

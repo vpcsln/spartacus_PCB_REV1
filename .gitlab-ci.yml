@@ -4,8 +4,10 @@ stages:
 verify-kicad-project:
   stage: verify
   image:
-    name: kicad/kicad:10.0.5
+    name: kicad/kicad:10.0.4@sha256:770e2fa006695077b5ba218742d5c3137896af91257b2ca971243fa56b01bb86
     entrypoint: [""]
+  variables:
+    KICAD_EXPECTED_VERSION: "10.0.4"
   script:
     - ./scripts/verify-project.sh
   artifacts:
