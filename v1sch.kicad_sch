@@ -1,0 +1,244 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cb43fcea-ef29-416a-91e4-99943f7eb9f2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 35.56 33.02)
+		(size 39.37 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0cee9b09-8cbd-455b-8df0-4b9ab20188fd")
+		(property "Sheetname" "RF_filters"
+			(at 35.56 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "filters.kicad_sch"
+			(at 35.56 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v1sch"
+				(path "/cb43fcea-ef29-416a-91e4-99943f7eb9f2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 77.47)
+		(size 37.465 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2d477eab-e9a7-46fd-afba-90ac8d8360ce")
+		(property "Sheetname" "Power (page 5)"
+			(at 36.83 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 36.83 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v1sch"
+				(path "/cb43fcea-ef29-416a-91e4-99943f7eb9f2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 34.29)
+		(size 68.58 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5c0cd11e-1559-46e0-bd88-0c8f7adecd20")
+		(property "Sheetname" "Transmitter"
+			(at 168.91 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Transmitter.kicad_sch"
+			(at 168.91 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v1sch"
+				(path "/cb43fcea-ef29-416a-91e4-99943f7eb9f2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 79.375)
+		(size 60.96 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6372e169-802a-4f00-89e1-2ef460ae84ad")
+		(property "Sheetname" "Receiver"
+			(at 92.71 78.6634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "receiver.kicad_sch"
+			(at 92.71 128.2196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v1sch"
+				(path "/cb43fcea-ef29-416a-91e4-99943f7eb9f2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 33.02)
+		(size 60.96 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "df4db7a1-3acf-4825-9ec6-6665a397a23d")
+		(property "Sheetname" "Control_MCU"
+			(at 92.71 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control_MCU.kicad_sch"
+			(at 92.71 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v1sch"
+				(path "/cb43fcea-ef29-416a-91e4-99943f7eb9f2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

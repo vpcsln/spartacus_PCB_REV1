@@ -1,0 +1,15 @@
+stages:
+  - verify
+
+verify-kicad-project:
+  stage: verify
+  image:
+    name: kicad/kicad:10.0.5
+    entrypoint: [""]
+  script:
+    - ./scripts/verify-project.sh
+  artifacts:
+    when: always
+    paths:
+      - build/reports/
+    expire_in: 30 days

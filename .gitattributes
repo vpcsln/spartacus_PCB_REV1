@@ -1,0 +1,21 @@
+* text=auto
+
+*.kicad_pro text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_sym text eol=lf
+*-lib-table text eol=lf
+*.lbr text eol=lf
+*.wrl text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+
+*.step binary
+*.stp binary
+*.3mf binary
+*.png binary
+*.jpg binary
+*.zip binary
