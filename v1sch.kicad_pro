@@ -775,7 +775,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "outgerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -942,7 +942,7 @@
         "uuid": "cb43fcea-ef29-416a-91e4-99943f7eb9f2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "JP21",
     "variants": []
   },
   "sheets": [

@@ -1654,6 +1654,117 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HansPinhead:PINHD-1X2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -6.35 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "HansPinhead:1X02"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PINHD-1X2_1_0"
+				(pin passive inverted
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BSS123"
 			(pin_names
 				(offset 0)
@@ -2657,12 +2768,6 @@
 		(uuid "00aca5d5-558b-4ec8-9754-9d890964a88b")
 	)
 	(junction
-		(at 115.57 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02585383-c247-4ced-a747-21649e7a6a67")
-	)
-	(junction
 		(at 187.96 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2939,6 +3044,12 @@
 		(uuid "a429cc6d-96d0-4b15-8e72-79fa6dbb2337")
 	)
 	(junction
+		(at 115.57 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a51bc89b-abfb-4ea0-a6fc-53ed14cded24")
+	)
+	(junction
 		(at 138.43 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3017,10 +3128,10 @@
 		(uuid "dff66bd0-b79e-4140-80af-c26f7d81e0be")
 	)
 	(junction
-		(at 115.57 132.08)
+		(at 114.3 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea324ab4-8e2b-4191-99fc-7fb0f47d7eb9")
+		(uuid "ea9f3189-d622-4228-8980-7d016a73f1a8")
 	)
 	(junction
 		(at 152.4 45.72)
@@ -3066,16 +3177,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 106.68) (xy 45.72 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0089d9d7-1db5-46bd-b4b1-708388ba01c9")
-	)
-	(wire
-		(pts
 			(xy 104.14 50.8) (xy 104.14 54.61)
 		)
 		(stroke
@@ -3083,16 +3184,6 @@
 			(type default)
 		)
 		(uuid "026dbf6a-fa64-4f8c-9681-04328ce12ac0")
-	)
-	(wire
-		(pts
-			(xy 115.57 132.08) (xy 115.57 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "042d58f6-bb5c-43f1-a32c-7f20de1f4d11")
 	)
 	(wire
 		(pts
@@ -3233,6 +3324,16 @@
 			(type default)
 		)
 		(uuid "16df7059-ed60-41a5-98de-66e65f9792e5")
+	)
+	(wire
+		(pts
+			(xy 121.92 120.65) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f2ed7e-1926-4baf-9345-2b5855baae30")
 	)
 	(wire
 		(pts
@@ -3546,6 +3647,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 120.65) (xy 87.63 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427c8b86-d470-4f27-b92a-e1743264aab0")
+	)
+	(wire
+		(pts
 			(xy 99.06 85.09) (xy 99.06 92.71)
 		)
 		(stroke
@@ -3696,7 +3807,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 121.92) (xy 115.57 106.68)
+			(xy 114.3 120.65) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3743,6 +3854,16 @@
 			(type default)
 		)
 		(uuid "5b3ca540-d921-43e3-b9eb-9b3e0dcecace")
+	)
+	(wire
+		(pts
+			(xy 115.57 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfbd358-ad6f-4e25-a506-8079624c4904")
 	)
 	(wire
 		(pts
@@ -3793,6 +3914,16 @@
 			(type default)
 		)
 		(uuid "6d57335d-5491-4ce8-ba41-a25846d8b718")
+	)
+	(wire
+		(pts
+			(xy 124.46 137.16) (xy 125.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7e33f4-7b76-46c5-9d00-a85e365d9082")
 	)
 	(wire
 		(pts
@@ -3926,16 +4057,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 132.08) (xy 115.57 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83e3c26d-f7f7-44a4-a603-58dd3afeae7c")
-	)
-	(wire
-		(pts
 			(xy 60.96 92.71) (xy 90.17 92.71)
 		)
 		(stroke
@@ -4063,6 +4184,16 @@
 			(type default)
 		)
 		(uuid "93efc33c-709e-4409-8739-e6b1dfee41da")
+	)
+	(wire
+		(pts
+			(xy 121.92 120.65) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bae6fe-1268-4c5b-974b-4988ffabd7e8")
 	)
 	(wire
 		(pts
@@ -4476,6 +4607,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 106.68) (xy 41.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadf7ffd-2f8b-4600-ac71-710588f205a7")
+	)
+	(wire
+		(pts
 			(xy 95.25 134.62) (xy 100.33 134.62)
 		)
 		(stroke
@@ -4486,7 +4627,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 106.68) (xy 55.88 106.68)
+			(xy 48.26 106.68) (xy 55.88 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +4637,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 106.68) (xy 125.73 106.68)
+			(xy 114.3 106.68) (xy 125.73 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4546,7 +4687,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 137.16) (xy 125.73 137.16)
+			(xy 115.57 137.16) (xy 119.38 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4646,6 +4787,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 132.08) (xy 115.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41f289d-2e8a-4c48-bafc-523bc795f5af")
+	)
+	(wire
+		(pts
 			(xy 11.43 43.18) (xy 11.43 50.8)
 		)
 		(stroke
@@ -4736,7 +4887,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 121.92) (xy 115.57 121.92)
+			(xy 87.63 120.65) (xy 114.3 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8706,7 +8857,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 48.26 106.68 90)
+		(at 45.72 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8717,7 +8868,7 @@
 		(fields_autoplaced yes)
 		(uuid "a74c4894-8799-4572-bd76-a29e764cdf74")
 		(property "Reference" "R108"
-			(at 48.26 101.6 90)
+			(at 45.72 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8727,7 +8878,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 48.26 104.14 90)
+			(at 45.72 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8737,7 +8888,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 48.26 106.68 0)
+			(at 45.72 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8748,7 +8899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 106.68 0)
+			(at 45.72 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8759,7 +8910,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 48.26 106.68 0)
+			(at 45.72 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9830,6 +9981,87 @@
 			(project "v1sch"
 				(path "/cb43fcea-ef29-416a-91e4-99943f7eb9f2/2d477eab-e9a7-46fd-afba-90ac8d8360ce"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HansPinhead:PINHD-1X2")
+		(at 121.92 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc05db83-8925-4027-9de0-36b3c678fa61")
+		(property "Reference" "JP21"
+			(at 121.92 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 127 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "HansPinhead:1X02"
+			(at 121.92 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PIN HEADER"
+			(at 121.92 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70b922e3-c405-44ad-a72f-e285e5a5e59d")
+		)
+		(pin "1"
+			(uuid "a89fd9bf-d5a7-4edf-87ce-66852cf9c0eb")
+		)
+		(instances
+			(project "v1sch"
+				(path "/cb43fcea-ef29-416a-91e4-99943f7eb9f2/2d477eab-e9a7-46fd-afba-90ac8d8360ce"
+					(reference "JP21")
 					(unit 1)
 				)
 			)

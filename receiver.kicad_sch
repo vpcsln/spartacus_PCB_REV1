@@ -15009,7 +15009,7 @@
 		(dnp no)
 		(uuid "c28e1286-060d-4409-8017-3a8bda43508f")
 		(property "Reference" "U14"
-			(at 148.59 132.0799 0)
+			(at 151.384 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15020,7 +15020,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 148.59 134.6199 0)
+			(at 151.384 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
