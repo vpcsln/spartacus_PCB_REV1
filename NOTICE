@@ -1,0 +1,21 @@
+SPARTACUS-HF REV1 hardware source notice
+
+Copyright (C) 2026 Cem Aslan
+
+SPDX-License-Identifier: CERN-OHL-S-2.0
+
+This repository contains the SPARTACUS-HF REV1 KiCad project: the
+schematics, the PCB, the project settings, the BOM and the verification
+scripts. This Covered Source is licensed under the CERN Open Hardware Licence
+Version 2 - Strongly Reciprocal. A verbatim copy is provided in LICENSE.
+
+The files under libraries/ are snapshots of third-party symbol, footprint,
+3D-model and documentation sources. They keep their original upstream
+licensing terms and are not relicensed by this notice.
+
+Source location: https://github.com/vpcsln/spartacus_PCB_REV1
+Project website: https://spartacus-hf.dev
+Project contact: contact@spartacus-hf.dev
+
+This is a development design and has not completed manufacturing, safety,
+regulatory, transmitter or receiver qualification.
